@@ -66,4 +66,9 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+    implementation ("org.tensorflow:tensorflow-lite:2.12.0")
+    implementation ("org.tensorflow:tensorflow-lite-support:0.4.3")
+    implementation ("org.tensorflow:tensorflow-lite-task-text:0.4.3")
+    implementation ("org.tensorflow:tensorflow-lite-select-tf-ops:2.16.1")
 }
