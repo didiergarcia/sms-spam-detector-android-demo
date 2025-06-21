@@ -22,7 +22,7 @@ Input: [1, 100] padded sequence of token IDs (int32)
 
 
 ## 📁 Folder Structure
-
+```
 com.github.didiergarcia.smsspamdetector/
 ├── MainActivity.kt
 ├── SmsReceiver.kt            # Listens for incoming SMS
@@ -37,7 +37,7 @@ com.github.didiergarcia.smsspamdetector/
 └── assets/
 ├── spam_classifier.tflite
 └── word_index.json
-
+```
 ## 🛠️ Setup & Testing
 
 1. Clone the repo and open in Android Studio (Arctic Fox or newer)
