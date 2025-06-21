@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "com.github.didiergarcia.smsspamdetector"
-        minSdk = 24
+        minSdk = 26
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -71,4 +71,8 @@ dependencies {
     implementation ("org.tensorflow:tensorflow-lite-support:0.4.3")
     implementation ("org.tensorflow:tensorflow-lite-task-text:0.4.3")
     implementation ("org.tensorflow:tensorflow-lite-select-tf-ops:2.16.1")
+
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1")
+    implementation ("androidx.compose.animation:animation:1.6.0")
+
 }

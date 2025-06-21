@@ -89,7 +89,8 @@ class SmsReciever : BroadcastReceiver() {
                 val result =  if (output[0][0] > 0.5) "Spam" else "Ham"
                 Log.d("SMS", "detected ${result} - ${output[0][0]}")
 
-                // Call classifyMessage() here
+                SmsViewModel.instance.updateSms(sender, messageBody, result)
+                Log.d("SMS", "sending SMS_RESULT")
             }
         }
     }
