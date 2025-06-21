@@ -48,10 +48,10 @@ com.github.didiergarcia.smsspamdetector/
 In the Android emulator, use Extended Controls → Phone → SMS to send a test message
 
 ## 🔐 Permissions Required
-
+```
 <uses-permission android:name="android.permission.RECEIVE_SMS" />
 <uses-permission android:name="android.permission.READ_SMS" />
-
+```
 ## ✨ Example
 
 When an SMS like:
