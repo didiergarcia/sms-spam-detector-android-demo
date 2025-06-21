@@ -61,8 +61,14 @@ When an SMS like:
 is received, the app will display:
 
 Sender:  555-1234
+
 Message: Congratulations! You've won...
+
 Result:  SPAM
+
+**NOTE: The app must be opened when the SMS is received.**
+
+![Android SMS SPAM demo](./assets/android-spam-demo-640px.gif)
 
 ## 📜 License
 
