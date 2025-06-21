@@ -68,7 +68,7 @@ Result:  SPAM
 
 **NOTE: The app must be opened when the SMS is received.**
 
-![Android SMS SPAM demo](./assets/android-spam-demo-640px.gif)
+![Android SMS SPAM demo](./assets/android-spam-demo-orig.gif)
 
 ## 📜 License
 
