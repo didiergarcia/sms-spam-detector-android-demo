@@ -14,9 +14,13 @@ Android SDK 26+
 ## 🧠 Model Overview
 
 Framework: Keras → TensorFlow Lite
+
 Architecture: Embedding + Bidirectional LSTM + Dense
+
 Accuracy: ~98% on validation set
+
 Size: ~ 1.5MB (.tflite and word index)
+
 Input: [1, 100] padded sequence of token IDs (int32)
 
 
